@@ -1,0 +1,8 @@
+Once the app is created successfully, install bootstrap 4 via:
+npm install bootstrap --save
+
+Next, open angular.json file and add bootstrap file path to the styles section.
+"styles": [
+  "src/styles.css",
+  "node_modules/bootstrap/dist/css/bootstrap.min.css"
+],
